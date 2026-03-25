@@ -1,0 +1,30 @@
+  //ESTUDO METODOS EM JAVA
+  
+    public class Carro{
+    String marcaDoCarro;
+    String modeloDoCarro;
+    int anoDoCarro;
+
+
+     public Carro(){
+        marcaDoCarro = "Desconhecida";
+        modeloDoCarro = "Desconhecida";
+        anoDoCarro = 0;        
+    }
+
+    public Carro(String marcaDoCarroInit, String modeloDoCarroInit, int anoDoCarroInit){
+        marcaDoCarro = marcaDoCarroInit;
+        modeloDoCarro = modeloDoCarroInit;
+        anoDoCarro = anoDoCarroInit;
+    }
+    public Carro(String marcaDoCarroInit, String modeloDoCarroInit){
+        marcaDoCarro = marcaDoCarroInit;
+        modeloDoCarro = modeloDoCarroInit;
+    }
+   
+    public String exibirDetalhes(){
+        return("Marca do Carro: " + marcaDoCarro + " Modelo do carro: " + modeloDoCarro + " Ano do Carro: " + anoDoCarro);
+    }
+
+}
+    
