@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RelogioDigital",
+            "request": "launch",
+            "mainClass": "RelogioDigital",
+            "projectName": "Projetos"
+        },
+        {
+            "type": "java",
             "name": "CalculadoraIMC",
             "request": "launch",
             "mainClass": "CalculadoraIMC",
@@ -12,7 +19,7 @@
             "type": "java",
             "name": "Run JavaFX",
             "request": "launch",
-            "mainClass": "CalculadoraIMC",
+            "mainClass": "RelogioDigital",
             "vmArgs": "--module-path \"C:/Program Files/Java/jdk-17/javafx-sdk-17.0.18/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
